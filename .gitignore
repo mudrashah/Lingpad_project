@@ -1,0 +1,47 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Ignore virtual environment
+venv/
+env/
+*.venv
+*.env
+
+# Ignore Django secrets and environment variables
+.env
+*.env
+secrets.json
+
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore static & media files (if generated dynamically)
+staticfiles/
+media/
+
+# Ignore migrations (optional, if you don't want to track them)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Ignore logs and temp files
+*.log
+*.swp
+*.swo
+*.bak
+.DS_Store
+
+# Ignore VS Code & PyCharm settings
+.vscode/
+.idea/
+
+# Ignore Docker and Celery files
+celerybeat-schedule
+docker-compose.override.yml
+
+# Ignore Jupyter notebooks checkpoints
+.ipynb_checkpoints/
